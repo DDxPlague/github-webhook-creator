@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: docker:17.05.0-ce-git
-    working_directory: /
     steps:
       - checkout
       # ... steps for building/testing app ...
